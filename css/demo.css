@@ -1,0 +1,50 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Racing+Sans+One|Roboto+Condensed:400,700,300);
+
+* {
+	margin:0px;
+	padding:0px;
+	outline:none;
+}
+body {
+	font-family: 'Racing Sans One', cursive;
+	overflow:auto;
+	text-align:center;
+	display: block;
+}
+.mkinputs {
+    padding: 30px;
+    display: inline-block;
+}
+.mkinputs fieldset {
+	background: #f9f9f9;
+	padding: 15px;
+	vertical-align: top;
+	margin: 30px;
+	display: inline-block;
+	border: 1px solid #ddd;
+}
+.mkinputs fieldset legend
+{
+    padding: 10px;
+    margin: 0;
+    background: #e9e9e9;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border: 1px solid #aaa;
+}
+.mkinputs label {
+	cursor: pointer;
+	display: block;
+	line-height: 20px;
+	text-align: left;
+	font-size: 18px;
+	padding-bottom: 9px;
+	text-shadow: 0 1px 0px rgba(255, 255, 255, 0.6);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.mkinputs .label_check input, .mkinputs .label_radio input {
+	margin-right: 5px;
+}
